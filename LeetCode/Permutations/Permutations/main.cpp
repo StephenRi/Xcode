@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Permutations
+//  46. Permutations
 //
 //  Created by Shuaibing_Zhao on 2017/11/5.
 //  Copyright © 2017年 Shuaibing_Zhao. All rights reserved.
