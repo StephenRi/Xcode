@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "dfs(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, int):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "nums">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "*subAnswer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "tmp">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "permute(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(&amp;nums)">
+            </PersistentString>
+            <PersistentString
+               value = "(*subAnswer)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
