@@ -15,8 +15,7 @@
 
 using namespace std;
 
-class BCHCode
-{
+class BCHCode {
 public:
     void BCHEncode(int input[], int output[]);
     void BCHDecode(int info);

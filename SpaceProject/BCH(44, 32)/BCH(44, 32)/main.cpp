@@ -15,16 +15,14 @@ const int dataLen = 32;
 const int parityLen = 12;
 const int codeLen = 44;
 
-int main(int argc, const char * argv[])
-{
+int main(int argc, const char * argv[]) {
     // insert code here...
     int encodeInput[dataLen] = {
         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,    1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
     };
     int encodeOutput[codeLen];
     
-    for(int i = 0; i < dataLen; i++)
-    {
+    for(int i = 0; i < dataLen; i++) {
         printf("%-2d", encodeInput[i]);
     }
     printf("\n");
@@ -32,8 +30,7 @@ int main(int argc, const char * argv[])
     BCHCode * bch = new BCHCode();
     bch->BCHEncode(encodeInput, encodeOutput);
     
-    for(int i = 0; i < codeLen; i++)
-    {
+    for(int i = 0; i < codeLen; i++) {
         printf("%-2d", encodeOutput[i]);
     }
     printf("\n");

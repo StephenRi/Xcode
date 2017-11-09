@@ -51,15 +51,12 @@ const vector<vector<int>> generateMatrix = {
  @param input 输入32位信息位
  @param output 输出44位编码后的BCH码
  */
-void BCHCode::BCHEncode(int input[], int output[])
-{
+void BCHCode::BCHEncode(int input[], int output[]) {
     printf("BCHEncode start...\n");
     
-    for (int i = 0; i < generateMatrix.size(); i++)
-    {
+    for (int i = 0; i < generateMatrix.size(); i++) {
         output[i] = 0;
-        for (int j = 0; j < generateMatrix[i].size(); j++)
-        {
+        for (int j = 0; j < generateMatrix[i].size(); j++) {
             output[i] ^= input[generateMatrix[i][j]];
         }
     }
@@ -67,7 +64,6 @@ void BCHCode::BCHEncode(int input[], int output[])
     printf("BCHEncode end...\n");
 }
 
-void BCHCode::BCHDecode(int info)
-{
+void BCHCode::BCHDecode(int info) {
 
 }
