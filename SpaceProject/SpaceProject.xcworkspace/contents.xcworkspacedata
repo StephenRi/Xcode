@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BCH(44, 32)/BCH(44, 32).xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Probability/Probability.xcodeproj">
    </FileRef>
 </Workspace>
