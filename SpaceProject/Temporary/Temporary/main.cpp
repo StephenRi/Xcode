@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  BCH(44, 32)
+//  Temporary
 //
-//  Created by Shuaibing_Zhao on 2017/11/8.
+//  Created by Shuaibing_Zhao on 2017/11/17.
 //  Copyright © 2017年 Shuaibing_Zhao. All rights reserved.
 //
 
@@ -17,6 +17,9 @@ int main(int argc, const char * argv[]) {
     BCHCode * bch = new BCHCode();
     bch->setTable();
     
-    
+    long long a = 0x0000000000000008;
+    cout << a << endl;
+    a >>= 2;
+    cout << a << endl;
     return 0;
 }

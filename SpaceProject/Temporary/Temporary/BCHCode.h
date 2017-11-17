@@ -1,8 +1,8 @@
 //
-//  BCHCode.hpp
-//  BCH(44, 32)
+//  Tmp1.hpp
+//  Temporary
 //
-//  Created by Shuaibing_Zhao on 2017/11/8.
+//  Created by Shuaibing_Zhao on 2017/11/17.
 //  Copyright © 2017年 Shuaibing_Zhao. All rights reserved.
 //
 
@@ -33,5 +33,6 @@ public:
 };
 
 #endif /* BCHCode_h */
+
 
 
